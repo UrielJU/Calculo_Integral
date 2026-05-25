@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CálculoIntegral — Introducción</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=JetBrains+Mono:wght@300;400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+  <a href="#page-main" class="skip-link">Saltar al contenido</a>
+  <nav>
+    <a href="portada.html" class="nav-brand">∫ CálculoIntegral</a>
+    <ul class="nav-links">
+      <li><a href="portada.html">Portada</a></li>
+      <li><a href="introduccion.html">Intro</a></li>
+      <li><a href="definiciones.html">Definiciones</a></li>
+      <li><a href="riemann.html">Riemann</a></li>
+      <li><a href="metodos.html">Métodos</a></li>
+      <li><a href="simulador.html">Simulador</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+    </ul>
+    <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" onclick="toggleNav()" aria-label="Abrir menú">☰</button>
+    <button class="btn-darkmode" onclick="toggleMode()">☀ / ☾</button>
+  </nav>
+
+  <main id="page-main">
+    <section id="introduccion">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2 class="section-title">Introducción al Cálculo Integral</h2>
+      </div>
+      <div class="intro-grid">
+        <div class="intro-text">
+          <p>
+            El <strong>cálculo integral</strong> es una de las ramas fundamentales del análisis matemático.
+            Desarrollado de forma independiente por Isaac Newton y Gottfried Leibniz en el siglo XVII,
+            establece una poderosa herramienta para calcular áreas, volúmenes, distancias y magnitudes
+            que varían de forma continua.
+          </p>
+          <p>
+            La integral es la operación inversa de la derivada. Mientras la derivada mide la <em>tasa de cambio</em>,
+            la integral <em>acumula</em> cantidades. Este vínculo, conocido como el <strong>Teorema Fundamental del Cálculo</strong>,
+            conecta ambas operaciones en una relación profunda y elegante.
+          </p>
+          <p>
+            La importancia de las integrales radica en su capacidad para traducir fenómenos reales en valores precisos.
+            Permiten calcular el trabajo realizado por una fuerza variable, el volumen de un sólido de revolución,
+            la distancia recorrida a partir de una velocidad variable y el crecimiento acumulado en finanzas.
+          </p>
+          <p>
+            Ejemplos concretos: usar integrales para determinar el área bajo una curva de velocidad,
+            medir el volumen de un depósito con base en perfiles transversales, estimar el consumo total de energía
+            y analizar modelos de inversión con tasa variable.
+          </p>
+        </div>
+        <div>
+          <div class="stat-row">
+            <div class="stat-box"><div class="stat-num">17°</div><div class="stat-desc">Siglo de origen</div></div>
+            <div class="stat-box"><div class="stat-num">∞</div><div class="stat-desc">Aplicaciones</div></div>
+            <div class="stat-box"><div class="stat-num">6+</div><div class="stat-desc">Métodos de integración</div></div>
+            <div class="stat-box"><div class="stat-num">3</div><div class="stat-desc">Tipos de Riemann</div></div>
+          </div>
+          <div class="card" style="margin-top:1.2rem">
+            <h3>Objetivo de esta página</h3>
+            <p>Brindar una herramienta interactiva que explique por qué las integrales son fundamentales,
+            cómo se aplican en problemas reales y cómo usar métodos de aproximación como las sumas de Riemann.
+            El objetivo es que el estudiante comprenda el significado del intervalo de integración,
+            el valor acumulado y la precisión del resultado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>∫ CálculoIntegral</span> · Simulador Profesional · 2026 · Desarrollado con HTML, CSS y JavaScript
+  </footer>
+  <script src="../JavaScript/script.js"></script>
+</body>
+</html>

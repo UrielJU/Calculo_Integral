@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CálculoIntegral — Portada</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=JetBrains+Mono:wght@300;400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+  <a href="#portada" class="skip-link">Saltar al contenido principal</a>
+  <nav>
+    <a href="portada.html" class="nav-brand">∫ CálculoIntegral</a>
+    <ul class="nav-links">
+      <li><a href="portada.html">Portada</a></li>
+      <li><a href="introduccion.html">Intro</a></li>
+      <li><a href="definiciones.html">Definiciones</a></li>
+      <li><a href="riemann.html">Riemann</a></li>
+      <li><a href="metodos.html">Métodos</a></li>
+      <li><a href="simulador.html">Simulador</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="referencias.html">Referencias</a></li>
+    </ul>
+    <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" onclick="toggleNav()" aria-label="Abrir menú">☰</button>
+    <button class="btn-darkmode" onclick="toggleMode()">☀ / ☾</button>
+  </nav>
+  <main id="portada" class="hero-page">
+    <div class="hero-grid"></div>
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag">Proyecto educativo · Cálculo Integral</div>
+      <h1 class="hero-title">Simulador<br>Profesional de<br><span>Integrales</span></h1>
+      <p class="hero-subtitle">Visualiza y comprende integrales definidas e indefinidas. Experimenta con sumas de Riemann y funciones reales.</p>
+      <p class="hero-text">Descubre el significado del área acumulada, las propiedades de los integrales y cómo conectar la teoría con el cálculo práctico de funciones.</p>
+      <ul class="hero-highlights">
+        <li>Comprende integrales definidas e indefinidas con ejemplos paso a paso.</li>
+        <li>Interpreta las sumas de Riemann como aproximación al área bajo la curva.</li>
+        <li>Revisa métodos de integración y su aplicación en problemas reales.</li>
+      </ul>
+      <div class="hero-banner" aria-hidden="true">
+        <div class="hero-banner-copy">
+          <strong>Aprende con gráficos y resultados claros.</strong>
+          <p>Explora el valor acumulado bajo la curva y mejora tu comprensión del cálculo integral.</p>
+        </div>
+        <div class="hero-banner-visual">
+          <!-- Pega aquí la URL de tu imagen remota sin guardarla localmente -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4o2YQRnl3waGTbUwz8LqM0pGfbCT2xu00Ug&s" alt="Ilustración de integrales" class="hero-banner-img" />
+            <defs>
+              <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#f8f4e6"/>
+                <stop offset="100%" stop-color="#fff7dd"/>
+              </linearGradient>
+              <linearGradient id="lines" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#d8bf7d"/>
+                <stop offset="100%" stop-color="#c9a84c"/>
+              </linearGradient>
+            </defs>
+            <rect x="22" y="18" width="285" height="184" rx="28" fill="url(#paper)" stroke="rgba(255,255,255,.16)" stroke-width="2"/>
+            <path d="M50 55 H280" stroke="rgba(78,201,176,.4)" stroke-width="3" stroke-linecap="round"/>
+            <path d="M50 85 H280" stroke="rgba(78,201,176,.3)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M50 115 H280" stroke="rgba(78,201,176,.3)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="52" cy="46" r="4" fill="#f26f6f"/>
+            <circle cx="70" cy="46" r="4" fill="#c9a84c"/>
+            <circle cx="88" cy="46" r="4" fill="#5b9cf6"/>
+            <rect x="310" y="42" width="76" height="28" rx="12" fill="rgba(255,255,255,.25)"/>
+            <path d="M320 52 C330 30 360 30 370 52" fill="none" stroke="#f4f4f2" stroke-width="3"/>
+            <path d="M330 52 C338 40 352 40 360 52" fill="none" stroke="#fff" stroke-width="2"/>
+            <path d="M150 70 C132 20 210 20 200 70 C190 120 130 120 150 150" fill="none" stroke="#c9a84c" stroke-width="12" stroke-linecap="round"/>
+            <path d="M155 64 C140 18 190 18 180 64" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".45"/>
+            <path d="M160 95 C142 60 188 60 175 95" fill="none" stroke="#5b9cf6" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+            <path d="M96 160 L204 160" stroke="rgba(255,255,255,.6)" stroke-width="4" opacity=".7"/>
+            <path d="M100 172 L180 172" stroke="rgba(255,255,255,.4)" stroke-width="3" opacity=".6"/>
+            <path d="M282 170 L324 130" stroke="rgba(201,168,76,.85)" stroke-width="14" stroke-linecap="round"/>
+            <path d="M320 127 L334 141" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+            <path d="M323 133 L333 123" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="60" cy="150" r="8" fill="rgba(78,201,176,.15)"/>
+            <circle cx="340" cy="70" r="10" fill="rgba(91,156,246,.12)"/>
+            <circle cx="360" cy="40" r="7" fill="rgba(201,168,76,.18)"/>
+          </svg>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-card"><div class="meta-label">Materia</div><div class="meta-value">Cálculo Integral</div></div>
+        <div class="meta-card"><div class="meta-label">Integrantes</div><div class="meta-value">Equipo — 2026</div></div>
+        <div class="meta-card"><div class="meta-label">Grupo</div><div class="meta-value">Asignar grupo</div></div>
+        <div class="meta-card"><div class="meta-label">Fecha</div><div class="meta-value">Mayo 2026</div></div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn-primary" href="introduccion.html">Comenzar</a>
+        <a class="btn-secondary" href="simulador.html">Ir al simulador</a>
+      </div>
+      <div class="hero-formula">∫ f(x) dx = F(x) + C</div>
+    </div>
+  </main>
+  <footer>∫ CálculoIntegral · Portada · 2026</footer>
+  <script src="../JavaScript/script.js"></script>
+</body>
+</html>
